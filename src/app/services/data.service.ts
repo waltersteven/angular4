@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
+//Para crear un servicio => ng g service services/data
+
 @Injectable() //@Injectable() decorator tells TypeScript to emit metadata about the service
 export class DataService {
 
